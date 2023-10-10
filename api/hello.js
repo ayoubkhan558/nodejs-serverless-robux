@@ -5,7 +5,7 @@ const noblox = require('noblox.js');
 module.exports = (req, res) => {
   const { name = 'Ayoub' } = req.query;
 
-  getData();
+  return getData();
 };
 
 
