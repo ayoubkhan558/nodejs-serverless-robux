@@ -1,6 +1,6 @@
 const express = require('express');
-// const noblox = require('noblox.js');
-// const axios = require('axios'); 
+const noblox = require('noblox.js');
+const axios = require('axios'); 
 
 module.exports = async (req, res) => {
   const { name = 'Ayoub' } = req.query;
